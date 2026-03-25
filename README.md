@@ -13,7 +13,7 @@
 
 A pipeline-focused Blender add-on designed to automate standard game development naming conventions, make baking workflows faster, and keep outliners organized. 
 
-This tool eliminates the repetitive, error-prone process of manually renaming meshes for engine export (Unreal Engine / Unity) and baking software (Marmoset Toolbag / Substance Painter).
+This tool eliminates the repetitive, error-prone process of manually renaming meshes for engine export (Unreal Engine/Unity) and baking software (Marmoset Toolbag/Substance Painter).
 
 <p align="center">
   <picture>
@@ -23,7 +23,9 @@ This tool eliminates the repetitive, error-prone process of manually renaming me
 </picture>
 
 </p>
+
 ---
+
 # Key Features
 
 Unlike basic string-append scripts, this tool uses "Smart Affix" logic. It detects existing pipeline prefixes/suffixes and replaces them rather than stacking them (e.g., swapping `Crate_high` to `Crate_low` with one click, instead of accidentally creating `Crate_high_low`).
@@ -37,6 +39,7 @@ Unlike basic string-append scripts, this tool uses "Smart Affix" logic. It detec
 As a 3D Environment Artist, I noticed how much pipeline time was wasted manually formatting names for FBX exports or fixing baking raycast errors caused by typos. I developed this tool using Blender's `bpy` Python API to enforce strict naming conventions.
 
 ---
+
 # Installation
 
 1. Download the latest release: `b3d-renamer-addon.zip`
@@ -46,6 +49,7 @@ As a 3D Environment Artist, I noticed how much pipeline time was wasted manually
 5. ...or just drag and drop the archive straight into Blender!
 
 ---
+
 # Usage
 
 Once installed, the tool is designed to be easily accessible directly in the 3D Viewport.
@@ -56,6 +60,7 @@ Once installed, the tool is designed to be easily accessible directly in the 3D 
 4. Use the categorized buttons to apply your desired naming conventions. All actions fully support `Ctrl+Z` undo functionality.
 
 ---
+
 # Help!
 
 If you encounter any issues with the plugin, please reach out to me via email:
